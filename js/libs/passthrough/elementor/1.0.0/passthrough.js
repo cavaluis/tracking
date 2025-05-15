@@ -1,4 +1,3 @@
-//   debugger;
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.get('testing_code') === null || urlParams.get('testing_code') === undefined || urlParams.get('testing_code') !== 'true') {
     const referer = document.referrer;
